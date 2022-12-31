@@ -11,7 +11,8 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.8.0</version>
 				<configuration>
-					<release>17</release>
+					<target>17</target>
+					<source>17</source>
 					<excludes>
 						<exclude>module-info.java</exclude>
 					</excludes>
